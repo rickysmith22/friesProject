@@ -1,0 +1,68 @@
+.footer-wrapper{
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+
+/* .footer-wrapper > .footer-logo-image {
+    display: flex;
+    justify-content: center;
+} */
+
+.footer-wrapper > .footer-logo-image img {
+    width: 180px;
+    height: 100%;
+    filter:brightness(50%);
+}
+
+.footer-wrapper > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;    
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .footer-phone-hours .hours{
+    font-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+
+}
+
+.footer-wrapper > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+
+.footer-wrapper > .social-contacts {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .social-contacts a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .social-contacts a:hover {
+    color: #cea135;
+}
+
+.footer-wrapper > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
